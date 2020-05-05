@@ -7,7 +7,7 @@ import org.junit.Test
  */
 class MainViewModelTest {
     private val mainViewModel = MainViewModel()
-            
+
     @Test
     fun sampleCalculation() {
         val startNumber = 5
