@@ -3,5 +3,12 @@ package pl.adamchodera.testgithubactions.ui.main
 import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+
+    fun addFiveCalculation(startNumber: Int): Int {
+        return startNumber.addFive()
+    }
+
+    fun Int.addFive() : Int {
+        return this + 5
+    }
 }
